@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2b303b;
+  flex-direction: column;
+}
+
+#main-canvas {
+  background-color: #8ebf99;
+  border: 4px solid #4a604f;
+}
+
+.score {
+  margin-bottom: 20px;
+  color: rgb(211, 211, 211);
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
